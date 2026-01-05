@@ -1,8 +1,9 @@
 {
   "packageDirectories": [
-    { "path": "helios-grid-sentinel-app", "default": true },
-    { "path": "helios-grid-volt-track-app", "default": false },
-    { "path": "helios-grid-bright-spark-app", "default": false }
+    { "path": "helios-grid-sentinel-module", "default": true },
+    { "path": "helios-grid-volt-track-module", "default": false },
+    { "path": "helios-grid-bright-spark-module", "default": false },
+    { "path": "helios-grid-app", "default": false }
   ],
   "name": "SFDC-Helios-Grid-Integrated-Ops",
   "namespace": "",
