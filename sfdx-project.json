@@ -1,7 +1,7 @@
 {
   "packageDirectories": [
-    { "path": "helios-grid-sentinel-module", "default": true },
-    { "path": "helios-grid-volt-track-module", "default": false },
+    { "path": "helios-grid-sentinel-module", "default": false },
+    { "path": "helios-grid-volt-track-module", "default": true },
     { "path": "helios-grid-bright-spark-module", "default": false },
     { "path": "helios-grid-app", "default": false }
   ],
