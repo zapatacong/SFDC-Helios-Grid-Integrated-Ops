@@ -1,9 +1,8 @@
 {
   "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
+    { "path": "helios-grid-sentinel-app", "default": true },
+    { "path": "helios-grid-volt-track-app", "default": false },
+    { "path": "helios-grid-bright-spark-app", "default": false }
   ],
   "name": "SFDC-Helios-Grid-Integrated-Ops",
   "namespace": "",
