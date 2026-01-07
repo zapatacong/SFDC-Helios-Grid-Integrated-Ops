@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Inverter Health Monitor" icon-name="standard:dashboard_performance">
+        <div class="slds-p-around_medium">
+            <div class="slds-grid slds-grid_align-spread slds-m-bottom_small">
+                <span>Efficiency Status</span>
+                <span class="slds-text-heading_medium"><strong>{efficiency}%</strong></span>
+            </div>
+
+            <div class="slds-progress-bar slds-progress-bar_large" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow={efficiency}>
+                <span class={gaugeClass} style={gaugeStyle}></span>
+            </div>
+
+            <div class="slds-m-top_medium slds-text-align_center">
+                <span class={statusBadgeClass}>{statusMessage}</span>
+            </div>
+        </div>
+    </lightning-card>
+</template>
